@@ -1,0 +1,53 @@
+body{
+    background-color: antiquewhite;
+
+}
+.box {
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    direction: rtl;
+    display: inline-table ;
+    width: 49.5%;
+}
+.menu{
+    margin-top: 0px;
+    padding-right: 0%;
+    background-color: cadetblue;
+    width:15%;
+}
+
+.side {
+    margin-top: 0px;
+    padding: 5px;
+    height: 45%;
+    background-color: cadetblue;
+    width: 75%;
+}
+.menu li{
+    list-style-type: none;
+    padding:5px;
+}
+.side li{
+    padding: 10px;
+    list-style-type: none;
+    display: inline ;
+}
+a{
+    padding: 5px;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.side a:hover{
+    background-color: rgb(95, 158, 180);
+    color: white;
+}
+.menu li:hover{
+    background-color: rgb(95, 158, 180);
+}
+.menu a:hover{
+    background-color: rgb(95, 158, 180);
+    color:white;
+}
